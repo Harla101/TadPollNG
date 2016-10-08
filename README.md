@@ -1,4 +1,5 @@
 # TadPollNG
+<<<<<<< HEAD
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
@@ -29,3 +30,17 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+Refactored TadPoll in Angular 2 with BDD
+
+Refactoring previous TadPoll project from ReactJS to Angular 2, bringing in BDD with Karma/Jasmine
+
+## Tech Stack:
+* Angular 2
+* Ruby on Rails (anticipated backend, Node as alternative)
+* Websockets
+* D3
+* RxJS
+
+
+>>>>>>> 05c8f2c2c625e033d3303a6b62d2c8cf98bdf768
