@@ -11,10 +11,14 @@ Refactoring previous TadPoll project from ReactJS to Angular 2, bringing in BDD 
 * RxJS
 
 
-## Artboards / Wireframes (with Adobe Experience Design:
+## Artboards / Wireframes (with Adobe Experience Design):
+#### Dashboard mock
 ![artboard dashboard](/artboards/Web%201920%20%E2%80%93%201.png)
+#### Presentation View mock
 ![artboard presentation view](/artboards/Presentation%20View%402x.png)
+#### Single Poll Detail mock
 ![artboard poll detail](/artboards/Poll%20Detail%402x.png)
+#### Question/Poll Creation mock
 ![artboard question Creation](/artboards/Question%20Creation.png)
 
 ## Development server
