@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { ActivePollsComponent } from './active-polls/active-polls.component';
 
 import { PollsActiveService } from './polls-active.service';
+import { PollBadgeComponent } from './poll-badge/poll-badge.component';
+import { MapToIterablePipe } from './map-to-iterable.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ActivePollsComponent
+    ActivePollsComponent,
+    PollBadgeComponent,
+    MapToIterablePipe
   ],
   imports: [
     BrowserModule,

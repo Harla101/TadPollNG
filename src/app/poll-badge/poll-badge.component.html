@@ -1,0 +1,4 @@
+<p>
+  {{poll.question}}
+</p>
+<li *ngFor='let choice of poll.prompts | mapToIterable'> {{choice.key}}) {{choice.value}}</li>

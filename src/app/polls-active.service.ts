@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class PollsActiveService {
-  activePolls = [
+  currentPolls = [
   { id: 0,
     type: 'MC',
     question: `what's for dinner`,
@@ -22,6 +22,7 @@ export class PollsActiveService {
     results: {a: 200, b: 203, c: 45, d: 97}
   }
 ];
+
 
   constructor() { }
 
