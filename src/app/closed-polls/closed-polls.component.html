@@ -1,3 +1,11 @@
 <p>
-  closed-polls works!
+  closed-polls
 </p>
+<ul>
+  <li *ngFor='let poll of livePolls.currentPolls'>
+    <app-poll-badge
+      [poll]="poll"
+    >
+    </app-poll-badge>
+  </li>
+</ul>

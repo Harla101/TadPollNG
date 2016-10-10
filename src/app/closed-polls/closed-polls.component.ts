@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { PollsActiveService } from '../polls-active.service';
 
 @Component({
   selector: 'app-closed-polls',
   templateUrl: './closed-polls.component.html',
   styleUrls: ['./closed-polls.component.css']
 })
-export class ClosedPollsComponent implements OnInit {
+export class ClosedPollsComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  constructor(private livePolls:PollsActiveService){}
 }

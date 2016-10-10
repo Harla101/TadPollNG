@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: blue;
+  align-items: center;
+  max-height: 655px;
+  overflow: scroll;
+  border-radius: 5px;
+}
+ul {
+  width: 95%;
+  padding: 0;
+}
+li {
+  list-style: none;
+  width: 100%;
+}
+p {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 35px;
+}
