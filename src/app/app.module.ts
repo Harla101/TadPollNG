@@ -9,13 +9,15 @@ import { ActivePollsComponent } from './active-polls/active-polls.component';
 import { PollsActiveService } from './polls-active.service';
 import { PollBadgeComponent } from './poll-badge/poll-badge.component';
 import { MapToIterablePipe } from './map-to-iterable.pipe';
+import { ClosedPollsComponent } from './closed-polls/closed-polls.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ActivePollsComponent,
     PollBadgeComponent,
-    MapToIterablePipe
+    MapToIterablePipe,
+    ClosedPollsComponent
   ],
   imports: [
     BrowserModule,

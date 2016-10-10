@@ -11,7 +11,8 @@ export class PollsActiveService {
     prompts: {a: 'cheese', b: 'radish', c: 'beans', d: 'candy'},
     results: {a: 200, b: 203, c: 45, d: 97},
     createdDate: 1468046219000,
-    eventDate: 1477255207000
+    eventDate: 1477255207000,
+    live: true
   },
   { id: 1,
     presentation: 'Tech Talk',
@@ -21,7 +22,9 @@ export class PollsActiveService {
     prompts: {a: 'cheese', b: 'radish', c: 'beans', d: 'candy'},
     results: {a: 200, b: 203, c: 45, d: 97},
     createdDate: 1468046219000,
-    eventDate: 1477255207000
+    eventDate: 1477255207000,
+    live: true
+
   },
   { id: 2,
     presentation: 'Tech Talk',
@@ -31,7 +34,8 @@ export class PollsActiveService {
     prompts: {a: 'cheese', b: 'radish', c: 'beans'},
     results: {a: 200, b: 203, c: 45},
     createdDate: 1468046219000,
-    eventDate: 1477255207000
+    eventDate: 1477255207000,
+    live: true
   },
   { id: 3,
     presentation: 'Tech Talk',
@@ -41,7 +45,8 @@ export class PollsActiveService {
     prompts: {a: 'cheese', b: 'radish', c: 'beans'},
     results: {a: 200, b: 203, c: 45},
     createdDate: 1468046219000,
-    eventDate: 1477255207000
+    eventDate: 1477255207000,
+    live: true
   }
 ];
 
