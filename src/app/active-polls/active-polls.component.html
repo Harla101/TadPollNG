@@ -2,9 +2,10 @@
     active-polls
   </p>
   <ul>
-    <li *ngFor='let poll of polls'>
+    <li *ngFor='let poll of polls' >
       <app-poll-badge
         [poll]="poll"
+        *ngIf='poll.live'
       >
       </app-poll-badge>
     </li>

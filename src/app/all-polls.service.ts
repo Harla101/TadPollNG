@@ -20,7 +20,6 @@ export class AllPollsService {
 
   private extractData(res: Response) {
     let body = res.json();
-    console.log(body.data)
     return body.data || { };
   }
 
