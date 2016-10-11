@@ -19,7 +19,7 @@ constructor(private pollService: AllPollsService){}
   getPolls(): void {
     this.pollService.getPolls()
                     .subscribe(
-                      polls => console.log(polls),
+                      polls => this.polls = polls,
                       error => console.log(error));
   }
 
