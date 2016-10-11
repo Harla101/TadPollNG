@@ -1,11 +1,16 @@
-<p>
-  {{poll.presentation}}
-    {{poll.event}}
-</p>
-<p>
-  {{poll.question}}
-</p>
-<p>
-  created: {{poll.createdDate | date }}
-  event Date: {{poll.eventDate | date }}
-</p>
+<h3>{{poll.presentation}}</h3>
+<div>
+  <p>
+
+      {{poll.event}}
+  </p>
+  <p>
+    {{poll.question}}
+  </p>
+</div>
+<div>
+  <p>
+    created: {{poll.createdDate | date }}
+    event Date: {{poll.eventDate | date }}
+  </p>
+</div>

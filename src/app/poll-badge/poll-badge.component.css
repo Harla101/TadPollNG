@@ -1,14 +1,9 @@
 :host {
   display: flex;
-  flex-flow: column;
-  background-color: grey;
-  list-style: none;
-  border: 1px solid black;
-  border-radius: 15px;
-  width: 100%;
-  margin: 3px 0;
-}
-
-p {
-  padding: 5px;
+  flex-flow: row;
+  width: 95%;
+  padding: 0;
+  background-color: yellow;
+  margin: 5px auto;
+  height: 100px;
 }
