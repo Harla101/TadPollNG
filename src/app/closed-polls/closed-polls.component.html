@@ -1,11 +1,12 @@
 <p>
   closed-polls
 </p>
-<!-- <ul>
-  <li *ngFor='let poll of livePolls.currentPolls'>
+<ul>
+  <li *ngFor='let poll of polls'>
     <app-poll-badge
       [poll]="poll"
+      *ngIf='!poll.live'
     >
     </app-poll-badge>
   </li>
-</ul> -->
+</ul>
