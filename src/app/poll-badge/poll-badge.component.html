@@ -1,16 +1,16 @@
 <h3>{{poll.presentation}}</h3>
-<div>
-  <p>
-
-      {{poll.event}}
-  </p>
+<div class="poll-badge-detailsContainer">
+  <div class="poll-badge-question">
   <p>
     {{poll.question}}
   </p>
-</div>
-<div>
-  <p>
-    created: {{poll.createdDate | date }}
-    event Date: {{poll.eventDate | date }}
-  </p>
+  </div>
+  <div class="poll-badge-datedetails">
+    <p>
+      event date: {{poll.eventDate | date }}
+    </p>
+    <p>
+      created: {{poll.createdDate | date }}
+    </p>
+  </div>
 </div>

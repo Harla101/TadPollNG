@@ -1,9 +1,42 @@
 :host {
   background-color: yellow;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   height: 100px;
   margin: 5px auto;
-  padding: 0;
+  padding: 5px;
+  transition: all 0.5s;
   width: 95%;
+}
+
+:host:hover{
+  background-color: white;
+}
+
+h3 {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.poll-badge-detailsContainer {
+  display: flex;
+  flex-flow: row;
+  text-align: left;
+}
+
+.poll-badge-question {
+  width: 60%;
+}
+
+.poll-badge-datedetails {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+
+.poll-badge-datedetails p {
+  font-size: 12px;
+  margin: 5px;
+  text-align: right;
 }
