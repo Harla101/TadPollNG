@@ -1,9 +1,9 @@
 :host {
+  background-color: yellow;
   display: flex;
   flex-flow: row;
-  width: 95%;
-  padding: 0;
-  background-color: yellow;
-  margin: 5px auto;
   height: 100px;
+  margin: 5px auto;
+  padding: 0;
+  width: 95%;
 }

@@ -2,17 +2,16 @@
   background-color: orange;
   display: flex;
   flex-flow: column;
-  width: 30%;
+  height: 100%;
   margin: auto;
-  height: 650px;
+  width: 30%;
 }
 ul {
   background-color: magenta;
-  width: 100%;
-  height: 80%;
-  padding: 0;
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  height: 80%;
   overflow: scroll;
+  padding: 0;
+  width: 100%;
 }
