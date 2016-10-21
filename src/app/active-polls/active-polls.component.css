@@ -1,16 +1,18 @@
 :host {
   align-items: center;
-  background-color: orange;
+  background-color: #ECF0F1;
+  border: 1px solid #2C3E50;
+  border-radius: 5px;
   display: flex;
   flex-flow: column;
-  height: 100%;
+  height: 90%;
   margin: auto;
   min-width: 400px;
-  width: 30%;
+  width: 35%;
 }
 
 ul {
-  background-color: magenta;
+  background-color: #2980B9;
   display: flex;
   flex-flow: column;
   height: 80%;
@@ -22,7 +24,7 @@ ul {
 
  /* Create New Poll Button*/
 .new-poll-btn {
-  background-color: #f4511e;
+  background-color: #E74C3C;
   border: none;
   border-radius: 4px;
   border-style: none;
@@ -37,7 +39,7 @@ ul {
 }
 .new-poll-btn:focus{
   outline: none;
-  background-color: #3e8e41;
+  background-color: #3498DB;
 }
 .new-poll-btn span {
   cursor: pointer;
@@ -65,5 +67,6 @@ ul {
 }
 
 .new-poll-btn:active{
-  background-color: #3e8e41;
+  background-color: #3498DB;
+  border: 2px solid black;
 }

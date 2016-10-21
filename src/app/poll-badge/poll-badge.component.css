@@ -1,20 +1,25 @@
 :host {
-  background-color: yellow;
+  background-color: #ECF0F1;
+  border-radius: 5px;
+  color: #2C3E50;
   display: flex;
   flex-flow: column;
   height: 100px;
   margin: 5px auto;
-  padding: 5px;
+  overflow: scroll;
+  padding: 10px;
   transition: all 0.5s;
-  width: 95%;
+  width: 90%;
 }
 
 :host:hover{
-  background-color: white;
+  background-color: #3498DB;
+  color: #FFF;
 }
 
 h3 {
   width: 100%;
+  font-weight: 700;
   margin: 0;
   text-align: left;
 }
