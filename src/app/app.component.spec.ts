@@ -42,4 +42,7 @@ describe('App: TadPollNG', () => {
     let app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
+  it('sanity check', () => {
+    expect('a').toEqual('a');
+  })
 });

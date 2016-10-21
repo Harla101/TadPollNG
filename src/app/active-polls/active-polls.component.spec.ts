@@ -10,7 +10,8 @@ describe('Component: ActivePolls', () => {
     let component = new ActivePollsComponent();
     expect(component).toBeTruthy();
   });
-  it('should retrieve polls from service', () => {
-      expect(5).toEqual(5);
+  it('sanity check', () => {
+      const sorted = 5;
+      expect(sorted).toEqual(5);
   });
 });

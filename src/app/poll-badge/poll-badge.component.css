@@ -2,6 +2,7 @@
   background-color: #ECF0F1;
   border-radius: 5px;
   color: #2C3E50;
+  cursor: pointer;
   display: flex;
   flex-flow: column;
   height: 100px;

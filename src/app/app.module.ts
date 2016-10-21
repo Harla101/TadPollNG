@@ -13,6 +13,7 @@ import { ActivePollsComponent } from './active-polls/active-polls.component';
 import { PollBadgeComponent } from './poll-badge/poll-badge.component';
 import { ClosedPollsComponent } from './closed-polls/closed-polls.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PollDetailViewComponent } from './poll-detail-view/poll-detail-view.component';
 
 
 
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ActivePollsComponent,
     PollBadgeComponent,
     ClosedPollsComponent,
-    NavbarComponent
+    NavbarComponent,
+    PollDetailViewComponent
   ],
   imports: [
     BrowserModule,
