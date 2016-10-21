@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AllPollsService } from '../all-polls.service';
 import { Poll } from '../poll';
 
+
 @Component({
   selector: 'app-closed-polls',
   templateUrl: './closed-polls.component.html',
@@ -9,6 +10,7 @@ import { Poll } from '../poll';
 })
 export class ClosedPollsComponent {
   polls: Poll[];
+  showClosed: Boolean = false;
 
 constructor(private pollService: AllPollsService){}
 
@@ -21,5 +23,10 @@ constructor(private pollService: AllPollsService){}
                     .subscribe(
                       polls => this.polls = polls,
                       error => console.log(error));
+  }
+
+  showClosedClicked(): void {
+    this.showClosed = !this.showClosed;
+    console.log(this.showClosed);
   }
 }

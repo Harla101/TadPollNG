@@ -69,6 +69,28 @@ export class InMemoryDataService implements InMemoryDbService {
       createdDate: 1468046219000,
       eventDate: 1477255207000,
       live: false
+    },
+    { id: 5,
+      presentation: 'Tech Talk4',
+      event: 'codesmith night',
+      type: 'MC',
+      question: `what's for the camping trip?`,
+      prompts: {a: 'cheese', b: 'radish', c: 'beans'},
+      results: {a: 200, b: 203, c: 45},
+      createdDate: 1468046219000,
+      eventDate: 1477255207000,
+      live: false
+    },
+    { id: 5,
+      presentation: 'Tech Talk5',
+      event: 'codesmith night',
+      type: 'MC',
+      question: `what's for the camping trip?`,
+      prompts: {a: 'cheese', b: 'radish', c: 'beans'},
+      results: {a: 200, b: 203, c: 45},
+      createdDate: 1468046219000,
+      eventDate: 1477255207000,
+      live: false
     }
   ];
     return { allPolls };

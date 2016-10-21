@@ -1,6 +1,6 @@
 :host {
   align-items: center;
-  background-color: #ECF0F1;
+  background-color: #2980B9;
   border: 1px solid #2C3E50;
   border-radius: 5px;
   display: flex;
@@ -13,6 +13,8 @@
 
 ul {
   background-color: #2980B9;
+  border-bottom: 2px solid #2C3E50;
+  border-top: 2px solid #2C3E50;
   display: flex;
   flex-flow: column;
   height: 80%;

@@ -1,7 +1,9 @@
-<h1>
-  Closed Polls
-</h1>
-<ul>
+<div class='closed-polls-headline-container' (click)='showClosedClicked()'>
+  <h1  >
+    Closed Polls
+  </h1>
+</div>
+<ul [ngClass]="{'hiddenPollList': showClosed}">
   <li *ngFor='let poll of polls'>
     <app-poll-badge
       [poll]="poll"
