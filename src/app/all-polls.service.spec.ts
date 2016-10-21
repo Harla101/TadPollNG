@@ -2,6 +2,7 @@
 
 import { TestBed, async, inject } from '@angular/core/testing';
 import { AllPollsService } from './all-polls.service';
+import { Headers, Http, Response } from '@angular/http';
 
 describe('Service: AllPolls', () => {
   beforeEach(() => {
@@ -10,7 +11,7 @@ describe('Service: AllPolls', () => {
     });
   });
 
-  it('should ...', inject([AllPollsService], (service: AllPollsService) => {
+  xit('should ...', inject([AllPollsService], (service: AllPollsService) => {
     expect(service).toBeTruthy();
   }));
 });
