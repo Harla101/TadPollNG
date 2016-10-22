@@ -1,2 +1,12 @@
-  <active-polls></active-polls>
-  <app-closed-polls></app-closed-polls>
+<div class='subNavBarContainer'>
+  <h1>POLLS</h1>
+  <div class='subNavBar'>
+    <a (click)='activeClicked()'> ACTIVE </a>
+    <span>|</span>
+    <a> CLOSED </a>
+  </div>
+</div>
+<div class='dashboardSelectedView'>
+  <a class='newPollBtn'>CREATE NEW POLL <span>+</span></a>
+  <active-polls *ngIf='activeSelected'></active-polls>
+</div>

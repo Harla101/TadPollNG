@@ -1,7 +1,9 @@
 <div class='closed-polls-headline-container' (click)='showClosedClicked()'>
   <h1  >
     Closed Polls
+    <i class="fa fa-arrows-v" aria-hidden="true"></i>
   </h1>
+
 </div>
 <ul [ngClass]="{'hiddenPollList': showClosed}">
   <li *ngFor='let poll of polls'>

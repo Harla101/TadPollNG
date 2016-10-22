@@ -1,74 +1,29 @@
 :host {
   align-items: center;
-  background-color: #2980B9;
-  border: 1px solid #2C3E50;
-  border-radius: 5px;
+  background-color: #000;
+  border: 1px solid #fff;
   display: flex;
   flex-flow: column;
-  height: 90%;
-  margin: auto;
+  height: 70%;
   min-width: 400px;
+  max-width: 505px;
+  margin-top: 2%;
   width: 35%;
 }
 
+h1 {
+  color: #fff;
+  font-weight: 300;
+}
+
 ul {
-  background-color: #2980B9;
-  border-bottom: 2px solid #2C3E50;
-  border-top: 2px solid #2C3E50;
+  background-color: #000;
+  border-bottom: 2px solid #1aeca9;
+  border-top: 2px solid #1aeca9;
   display: flex;
   flex-flow: column;
   height: 80%;
   overflow: scroll;
   padding: 0;
   width: 100%;
-}
-
-
- /* Create New Poll Button*/
-.new-poll-btn {
-  background-color: #E74C3C;
-  border: none;
-  border-radius: 4px;
-  border-style: none;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.2s;
-}
-.new-poll-btn:focus{
-  outline: none;
-  background-color: #3498DB;
-}
-.new-poll-btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.2s;
-}
-
-.new-poll-btn span:after {
-  content: '+';
-  opacity: 0;
-  position: absolute;
-  right: -20px;
-  top: 0;
-  transition: 0.5s;
-}
-
-.new-poll-btn:hover span {
-  padding-right: 25px;
-}
-
-.new-poll-btn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.new-poll-btn:active{
-  background-color: #3498DB;
-  border: 2px solid black;
 }

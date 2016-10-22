@@ -1,8 +1,10 @@
 :host {
-    background-color: #3498DB;
+    background-color: #0a0a0a;
     box-sizing: border-box;
-    height: 10%;
+    height: 5%;
+    min-height: 70px;
     text-align: center;
+    top: 0;
     width: 100%;
 }
 
@@ -14,6 +16,10 @@ nav {
 }
 
 h1 {
+  color: #ECF0F1;
+  letter-spacing: 3px;
+  font-weight: 400;
+  height: 100%;
   width: 20%;
 }
 
@@ -21,7 +27,7 @@ ul {
   box-sizing: border-box;
   display: flex;
   flex-flow: row;
-  height: 20px;
+  height: 100%;
   justify-content: flex-end;
   padding: 0;
   padding-right: 10%;
@@ -33,7 +39,9 @@ li {
 }
 
 a {
+  color: #7A7A7B;
   cursor: pointer;
+  font-weight: 400;
   transition: all 0.3s;
 }
 

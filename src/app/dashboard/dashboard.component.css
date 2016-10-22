@@ -1,8 +1,87 @@
 :host {
-  background-color: #2C3E50;
+  background-color: #000;
+  height: 95%;
+  width: 100%;
+}
+
+.dashboardSelectedView {
+  align-items: center;
   display: flex;
-  flex-flow: row;
-  height: 90%;
+  flex-flow: column;
   justify-content: center;
   width: 100%;
+}
+/*Create New Poll Button*/
+
+.newPollBtn {
+  color: #1aeca9;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-right: 15%;
+  text-align: right;
+  transition: all 0.3s;
+  width: 85%;
+}
+
+.newPollBtn > span {
+  color: #1aeca9;
+  border: 1px solid #1aeca9;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+
+.newPollBtn > span:hover{
+  background-color: #1aeca9;
+  color: #000;
+}
+
+/* Polls sub-navbar*/
+.subNavBarContainer {
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 15%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.subNavBarContainer h1 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+}
+
+.subNavBar {
+  border-bottom: 1px solid #7A7A7B;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding-bottom: 15px;
+  width: 90%;
+}
+
+.subNavBar a {
+  color: #7A7A7B;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+
+.subNavBar a:hover {
+  color: #fff;
+}
+
+.subNavBar > span {
+  color: #7A7A7B;
+  padding: 5px 10px;
+}
+
+.selected {
+  color: #7A7A7B;
+  border-bottom: 1px solid #1aeca9;
 }

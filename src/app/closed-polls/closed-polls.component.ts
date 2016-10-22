@@ -27,6 +27,5 @@ constructor(private pollService: AllPollsService){}
 
   showClosedClicked(): void {
     this.showClosed = !this.showClosed;
-    console.log(this.showClosed);
   }
 }
