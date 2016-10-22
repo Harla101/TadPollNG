@@ -1,39 +1,29 @@
 :host {
   align-items: center;
-  background-color: #4B4D4A;
-  border: 1px solid #2C3E50;
-  border-radius: 5px;
-  color: #ECF0F1;
+  background-color: #000;
+  border: 1px solid #fff;
   display: flex;
   flex-flow: column;
-  max-height: 90%;
-  max-width: 505px;
-  margin: auto;
+  height: 70%;
   min-width: 400px;
-  cursor: pointer;
-  transition: all 0.3s ;
-  width: 25%;
+  max-width: 505px;
+  margin-top: 2%;
+  width: 35%;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 300;
 }
 
 ul {
-  background-color: #4B4D4A;
-  border-bottom: 2px solid #2C3E50;
-  border-top: 2px solid #2C3E50;
+  background-color: #000;
+  border-bottom: 2px solid #1aeca9;
+  border-top: 2px solid #1aeca9;
   display: flex;
   flex-flow: column;
-  max-height: 0;
-  overflow: hidden;
-  padding: 0;
-  transition: max-height 0.5s ease-out;
-  width: 100%;
-}
-.closed-polls-headline-container {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-.hiddenPollList {
-  max-height: 500px;
-  transition: max-height 0.5s ease-in;
+  height: 80%;
   overflow: scroll;
+  padding: 0;
+  width: 100%;
 }

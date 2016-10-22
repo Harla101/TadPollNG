@@ -4,7 +4,7 @@ import { Poll } from '../poll';
 
 
 @Component({
-  selector: 'app-closed-polls',
+  selector: 'closed-polls',
   templateUrl: './closed-polls.component.html',
   styleUrls: ['./closed-polls.component.css']
 })

@@ -8,13 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
   activeSelected: boolean = true;
+  closedSelected: boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
 
   activeClicked(){
-    this.activeSelected = !this.activeSelected;
+    this.activeSelected = true;
+    this.closedSelected = false;
+  }
+
+  closedClicked(){
+    this.activeSelected = false;
+    this.closedSelected = true;
   }
 
 }
