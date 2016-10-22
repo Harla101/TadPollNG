@@ -5,11 +5,3 @@
   height: 100%;
   width: 100%;
 }
-
-.main-dashboard {
-  background-color: #2C3E50;
-  display: flex;
-  flex-flow: row;
-  height: 90%;
-  justify-content: center;
-}

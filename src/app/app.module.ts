@@ -14,6 +14,7 @@ import { PollBadgeComponent } from './poll-badge/poll-badge.component';
 import { ClosedPollsComponent } from './closed-polls/closed-polls.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PollDetailViewComponent } from './poll-detail-view/poll-detail-view.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -24,14 +25,19 @@ import { PollDetailViewComponent } from './poll-detail-view/poll-detail-view.com
     PollBadgeComponent,
     ClosedPollsComponent,
     NavbarComponent,
-    PollDetailViewComponent
+    PollDetailViewComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService)
-  ],
+    InMemoryWebApiModule.forRoot(InMemoryDataService),
+    RouterModule.forRoot([
+     { path: 'dashboard', component: DashboardComponent },
+     { path: 'polldetail', component: PollDetailViewComponent},
+   ])
+ ],
   providers: [AllPollsService],
   bootstrap: [AppComponent]
 })
