@@ -38,7 +38,6 @@ import { HomeComponent } from './home/home.component';
       { path: '', component: HomeComponent},
       { path: 'dashboard', component: DashboardComponent },
       { path: 'polldetail/:pollID', component: PollDetailViewComponent},
-      { path: '**', redirectTo: [''] }
    ])
  ],
   providers: [AllPollsService],
