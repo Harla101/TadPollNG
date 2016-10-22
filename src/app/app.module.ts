@@ -15,7 +15,7 @@ import { ClosedPollsComponent } from './closed-polls/closed-polls.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PollDetailViewComponent } from './poll-detail-view/poll-detail-view.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -26,7 +26,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ClosedPollsComponent,
     NavbarComponent,
     PollDetailViewComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,8 +35,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HttpModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     RouterModule.forRoot([
-     { path: 'dashboard', component: DashboardComponent },
-     { path: 'polldetail', component: PollDetailViewComponent},
+      { path: '', component: HomeComponent},
+      { path: 'dashboard', component: DashboardComponent },
+      { path: 'polldetail/:pollID', component: PollDetailViewComponent},
+      { path: '**', redirectTo: [''] }
    ])
  ],
   providers: [AllPollsService],
