@@ -18,6 +18,13 @@ export class AllPollsService {
                     .catch(this.handleError);
   }
 
+  getPoll(id: number): Observable<Poll> {
+    return this.getPolls()
+                .switchMap(x => x)
+                .filter(x => x.id === id)
+                .catch(this.handleError);
+  }
+
   private extractData(res: Response) {
     let body = res.json();
     return body.data || { };

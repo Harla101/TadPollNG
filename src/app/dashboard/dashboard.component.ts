@@ -23,5 +23,4 @@ export class DashboardComponent implements OnInit {
     this.activeSelected = false;
     this.closedSelected = true;
   }
-
 }

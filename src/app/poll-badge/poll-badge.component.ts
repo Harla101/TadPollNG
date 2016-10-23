@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-
-let selectedPoll;
+import { Poll } from '../poll';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-poll-badge',
@@ -13,13 +12,15 @@ export class PollBadgeComponent implements OnInit {
   @Input() poll;
 
 
-
-  constructor(){ }
+  constructor(
+    private router: Router
+  ){}
   ngOnInit() {
   }
 
-  pollDetailClick(e){
-    selectedPoll = this.poll
-    console.log(selectedPoll)
+  gotoDetail(poll: Poll): void {
+    let link = ['/polldetail', this.poll.id];
+    console.log(this.poll.id)
+    this.router.navigate(link);
   }
 }
