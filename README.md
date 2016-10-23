@@ -10,6 +10,8 @@ Refactoring previous TadPoll project from ReactJS to Angular 2, bringing in BDD 
 * D3
 * RxJS
 
+## Screenshots (Project in progress)
+![artboard dashboard](artboards/Screenshot 2016-10-22 16.57.57.png)
 
 ## Artboards / Wireframes (with Adobe Experience Design):
 #### Dashboard mock

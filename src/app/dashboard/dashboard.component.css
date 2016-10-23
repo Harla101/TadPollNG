@@ -1,5 +1,7 @@
 :host {
   background-color: #000;
+  display: flex;
+  flex-flow: column;
   height: 95%;
   width: 100%;
 }
@@ -44,6 +46,7 @@
   display: flex;
   flex-flow: column;
   height: 15%;
+  min-height: 165px;
   padding-top: 5%;
   padding-bottom: 2%;
   width: 100%;
@@ -68,6 +71,7 @@
 .subNavBar a {
   color: #7A7A7B;
   cursor: pointer;
+  min-height: 20px;
   padding: 5px 10px;
   transition: all 0.3s;
 }
