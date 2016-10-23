@@ -17,6 +17,8 @@ import { PollDetailViewComponent } from './poll-detail-view/poll-detail-view.com
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
 
+import { MapToIterablePipe } from './map-to-iterable.pipe';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { HomeComponent } from './home/home.component';
     PollDetailViewComponent,
     DashboardComponent,
     HomeComponent,
+    MapToIterablePipe
   ],
   imports: [
     BrowserModule,

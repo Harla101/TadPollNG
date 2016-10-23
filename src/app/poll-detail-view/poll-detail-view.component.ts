@@ -28,4 +28,8 @@ export class PollDetailViewComponent implements OnInit {
     });
   }
 
+  goBack(): void {
+  this.location.back();
+}
+
 }

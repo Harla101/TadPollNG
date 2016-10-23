@@ -8,7 +8,7 @@ export class InMemoryDataService implements InMemoryDbService {
       event: 'codesmith night',
       type: 'MC',
       question: `How do you handle asynchronous events in your application, production or otherwise?`,
-      prompts: {a: 'cheese', b: 'radish', c: 'beans', d: 'candy'},
+      prompts: {a: 'Callbacks', b: 'Promises', c: 'Reactive Programming', d: 'huh?'},
       results: {a: 200, b: 203, c: 45, d: 97},
       createdDate: 1468046219000,
       eventDate: 1477255207000,
